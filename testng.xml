@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Movies App Tests" parallel="tests" thread-count="5">
+    <test name="Login Tests">
+        <classes>
+            <class name="tests.LoginPageTest"/>
+        </classes>
+    </test>
+
+    <test name="Home Page Tests">
+        <classes>
+            <class name="tests.HomePageTest"/>
+        </classes>
+    </test>
+    <test name="Header section Tests">
+        <classes>
+            <class name="tests.HeaderSectionTest"/>
+        </classes>
+    </test>
+    <test name="Popular Page Tests">
+        <classes>
+            <class name="tests.PopularPageTest"/>r
+        </classes>
+    </test>
+    <test name="Movie Details Page Tests">
+        <classes>
+            <class name="tests.MovieDetailsPageTest"/>
+        </classes>
+    </test>
+    <test name="Account Page Tests">
+        <classes>
+            <class name="tests.AccountPageTest"/>
+        </classes>
+    </test>
+
+
+</suite>
